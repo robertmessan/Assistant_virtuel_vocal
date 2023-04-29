@@ -10,7 +10,6 @@ engine.setProperty('voice','french')
 
 def parler(text):
     engine.say(text)
-    engine.runAndWait()
 
 def ecouter():
     try:
